@@ -46,6 +46,6 @@ class Program
             Console.WriteLine("Sorry, you didn't pass. Good luck next time!");
         }
 
-        Console.WriteLine($"Your grade is {grade}");
+        Console.WriteLine($"Your grade is {letter}");
     }
 }
