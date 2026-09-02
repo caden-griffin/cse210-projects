@@ -30,5 +30,14 @@ class Program
             Console.WriteLine("Your grade is an F.");
         }
 
+        if ((Grade) <= 60)
+        {
+            Console.WriteLine("You Fail");
+        }
+        else
+        {
+            Console.WriteLine("You Pass!");
+        }
+
     }
 }

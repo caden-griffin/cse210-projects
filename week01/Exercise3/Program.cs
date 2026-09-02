@@ -13,7 +13,7 @@ class Program
 
         {
             Random randomGenerator = new Random();
-            int RandomNumber = randomGenerator.Next(1, 100);
+            int RandomNumber = randomGenerator.Next(1, 101);
             int number = 0;
             while (number != RandomNumber)
             {
